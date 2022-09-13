@@ -1,9 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 50%;
     background-color: #6b7280;
+    margin: 0;
 }
 .heading{
     text-align: center;
@@ -26,4 +25,33 @@ body{
 }
 #output{
     color: whitesmoke;
+}
+.footer{
+    background-color: #44403c;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border-top-right-radius: 1rem;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+.footer .link{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer ul li{
+    display: inline;
+}
+main{
+    width: 70vw;
+    margin: auto;
 }
